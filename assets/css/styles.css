@@ -1,5 +1,13 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body
+{
+
+    background-image: url("../images/allura.png");
+    background-repeat: repeat;
+}
+
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
@@ -11,6 +19,7 @@
   --first-color: #1a3a9c;
   --second-color: #0a141a;
 }
+
 
 /*===== Fuente y tipografia =====*/
 :root{
