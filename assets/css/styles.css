@@ -330,7 +330,7 @@ img{
 }
 .work1__button{
   margin-left: 57px;
-  margin-top: 0px;
+  margin-top: 10px;
   display: block;
   border: none;
   outline: none;
@@ -338,12 +338,12 @@ img{
   cursor: pointer;
 }
 .work2__img{
-  margin-top: 50px;
+  margin-top: 10px;
   margin-left: 0px;
 }
 .work2__button{
   margin-left: 57px;
-  margin-top: 38px;
+  margin-top: 10px;
   display: block;
   border: none;
   outline: none;
@@ -351,12 +351,12 @@ img{
   cursor: pointer;
 }
 .work3__img{
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: 57px;
 }
 .work3__button{
   margin-left: 57px;
-  margin-top: 1px;
+  margin-top: 10px;
   display: block;
   border: none;
   outline: none;
@@ -364,12 +364,12 @@ img{
   cursor: pointer;
 }
 .work4__img{
-  margin-top: 0px;
+  margin-top: 10px;
   margin-left: 37px;
 }
 .work4__button{
   margin-left: 57px;
-  margin-top: 6px;
+  margin-top: 10px;
   display: block;
   border: none;
   outline: none;
@@ -377,13 +377,12 @@ img{
   cursor: pointer;
 }
 .work5__img{
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 80px;
 }
 .work5__button{
   margin-left: 57px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-top: 10px;
   display: block;
   border: none;
   outline: none;
@@ -391,12 +390,12 @@ img{
   cursor: pointer;
 }
 .work6__img{
-  margin-top: 33px;
+  margin-top: 10px;
   margin-left: 68px;
 }
 .work6__button{
   margin-left: 57px;
-  margin-top: 27px;
+  margin-top: 10px;
   display: block;
   border: none;
   outline: none;
