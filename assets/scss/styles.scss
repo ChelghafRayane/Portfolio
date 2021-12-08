@@ -480,7 +480,10 @@ img{
 @media screen and(min-width: 1024px){
     .bd-grid{
         margin-left: auto;
+
         margin-right: auto;
+        display:flex;
+        
     }
     .home{
         &__img{
