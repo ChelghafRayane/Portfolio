@@ -1,215 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="../css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
 
     <link rel="icon" type="images/png" sizes="16x16" href="/assets/images/Bungie.png">
-        <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 
-        <title>Projet : Bomberman Pokémon : Hard Mode </title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="../../index.html" class="nav__logo">Rayane Chelghaf</a>
-                </div>
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/ca033e2644.js" crossorigin="anonymous"></script>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#FlappyBird" class="nav__link">Bomberman Pokémon</a></li>
-                    </ul>
-                </div>
+    <title>Portfolio Rayane Chelghaf</title>
+</head>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Mon Portfolio</a>
+            </div>
 
-        <main class="l-main">
-            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Accueil</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">À propos</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Compétences</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projets</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Bomberman Pokémon : PokéBomber</h2>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Projet : Bomberman Pokémon : PokéBomber</h2>
-                        <p class="skills__text"> Création d'un jeu clone de Bomberman en C# accessible depuis son terminal et avec support du multijoueur en réseau. Ce qui rends ce projet unique, c'est qu'il reprends le thème des jeux Pokémon 2B Topdown.</p>
-                    </div>
-                    
-                    <div>              
-                        <img src="../images/PokéBomber_Start.png" alt="" class="skills__images" style="margin-left: 150px;">
-                    </div>
-                </div>
-            </section>
-            
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Bonjour,<br>Je suis <span class="home__title-color">Rayane Chelghaf</span>,<br>
+                    jeune développeur à la recherche d'une alternance.</h1>
 
-           <!--===== SKILLS 2 =====-->
-          
-    <section class="skills section" id="skills">
+                <a href="#contact" class="button">Me contacter</a>
+            </div>
 
-            <div class="skills__container bd-grid">          
-                <div>
-                    <h2 class="skills__subtitle">Démonstration du Projet</h2>
-                    <p class="skills__text">Voici les instructions à suivre pour pouvoir tester le projet vous-même : <br><br>
-                         <a href="https://github.com/RayaneChelghaf/PokeBomber">Lien du Github avec les fichiers nécessaires pour l'installation.</a></p>
-<br>
-                   <p><h3>Pré-requis</h3>
-                    <br>
-                   -  Avoir une vm graphique (Linux, debian)
-                    <br>
-                    - Avoir installé gcc (compilateur langage C) :
-                    <br>
-                    <br>
-                    apt-get install gcc
-                    <br>
-                    <br>
-                    Pour installer toutes les librairies utiles :
-                    <br>
-                    <br>
-                    sudo apt install build-essential
-                    <br>
-                    <br>
-                    - Savoir jouer
-                    <br>
-                    <br>
-                    <h3>Installation</h3>
-                    <br>
-                    Excuté le script dependance.sh,
-                    <br>
-                    <br>
-                    <h3>Démarrage</h3>
-                    <br>
-
-                    Pour lancer le jeu :
-                    <br>
-                    make
-                    <br>
-                    ./Bomberman
-                    <br>
-                    <br>
-                    une instance du jeu va s'ouvrir sur votre VM</p>
-                </div>
-                     
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/rayanechelghaf/" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/RayaneChelghaf" class="home__social-icon"><i class='bx bxl-github'></i></a>
             </div>
 
 
-        
+
         </section>
 
-        
+        <!--===== ABOUT =====-->
         <section class="about section " id="about">
+            <h2 class="section-title">À propos</h2>
 
             <div class="about__container bd-grid">
                 <div class="about__images">
-                    <h3>Bonus 1/3 : Le Menu principal</h3>
-                    <h4>Depuis cette page, le joueur peut choisir de jouer seul contre l'ordinateur, en multijoueur local sur un même clavier, ou en multijoueur en ligne avec d'autres joueurs ayant installé le jeu sur leur terminal. "Exit" redirige vers l'écran Start. </h4>
-                    <img src="../images/PokéBomber_Start.png" alt="" style="height: 300px; width: 900px;">
+                    <img src="assets/images/Photo Rayane Chelghaf.jpg" alt="">
                 </div>
-                
-                <div class="about__images">
-                    <h3>Bonus 2/3 : Le menu "Options"</h3>
-                    <h4>Depuis cette page, le joueur peut consulter les touches attribuées au joueur 1 et 2 (les joueurs local jouent sur le même clavier), peut couper le son du jeu et le réactiver, et revenir au Menu principal.</h4>
-                                        <img src="../images/PokéBomber_Start.png" alt="" style="height: 300px; width: 900px;">
-                </div>   
-                
-                <div class="about__images">
-                    <h3>Bonus 3/3 : Background utilisé pour la Map du jeu</h3>
-                    <h4>Il s'agit du fond décoratif de la Map. <br>À la différence de la Map sur laquelle les joueurs sont placés, restrients, et peuvent intéragir, le Background décore le reste de la zone non-accessible. <br>Chaque sprite a été designé à la main ou repris de designs existants, et adaptés par mes soins pour respecter la taille de 34x34px pour rester en accord avec les blocs qui créent la Map. </h4>
-                                        <img src="../images/PokéBomber_Start.png" alt="" style="height: 300px; width: 900px;">
-                </div>  
-                <div class="about__images">
-                    <h3>Bonus 3/3 : Map utilisée pour définir la zone jouable</h3>
-                    <h4>Il s'agit de la Map du jeu.<br>À la différence du Background décoratif qui sert à donner vie au jeu, la Map définie simplement les limites de l'espace jouable auquel les joueurs peuvent accéder.<br>Concernant le sprite utilisé pour les bordures, l'arbre est également 34px de large, et il a été décidé que la Map serait fixe entre chaque partie, bien qu'ajouter une fonctionnalité de choix de forme de carte aléatoire serait envisageable. </h4>
-                                        <img src="../images/PokéBomber_Start.png" alt="" style="height: 300px; width: 900px;">
-                </div> 
-                
-                  
-                                    
+
+                <div>
+                    <h2 class="about__subtitle">Rayane Chelghaf</h2>
+                    <p class="about__text">Étudiant à l'ETNA, j'y ai obtenu mon Bachelor Bac+3 <br> Titre RNCP Niveau II, et je suis aujourd'hui à la recherche d’une alternance pour valider mon Master Architecte - Développeur d'Aplications.</p>
+                </div>
             </div>
         </section>
-    
 
-        <!--===== SKILLS 3 =====-->
+        <!--===== SKILLS =====-->
         <section class="skills section" id="skills">
+            <h2 class="section-title">Compétences</h2>
 
-            <div class="skills__container bd-grid">          
+            <div class="skills__container bd-grid">
                 <div>
-                    <h2 class="skills__subtitle">Langages Utilisés</h2>
-                </div>
-                
-            </div>
-
-        </section>
-
-        <section class="skills section" id="skills">
-
-            <div class="skills__container bd-grid">          
-                <div>
-                    <p class="skills__text">Voici les languages et frameworks utilisés pour ce projet :</p>
-                    
-                </div>
-
-                <div>              
+                    <h2 class="skills__subtitle">Compétences Professionnelles</h2>
+                    <p class="skills__text">
+                       Je réponds à plusieurs compétence qui pourraient vous intéresser.
+                       <br> Pour plus d'informations, vous pouvez accéder à la section "Compétences".
+                    </p>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <span class="iconify" data-icon="file-icons:bloc" style="color: #1500ce;" data-width="30" data-height="30"></span>
-                            <span class="skills__name">C</span>
-
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
                         </div>
-                        <div class="skills__bar skills__autre">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage"></span>
-                        </div>
-                </div>
-                    <div>              
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="iconify" data-icon="vscode-icons:file-type-sdlang" style="color: #1500ce;" data-width="30" data-height="30"></span>
-                                <span class="skills__name">SDL</span>
-    
-                            </div>
-                            <div class="skills__bar skills__autre">
-    
-                            </div>
-                            <div>
-                                <span class="skills__percentage"></span>
-                            </div>
-                        </div>
-                        <div>
-                            <div>              
-                                <div class="skills__data">
-                                    <div class="skills__names">
-                                        <span class="iconify" data-icon="cib:coreui-c" style="color: #1500ce;" data-width="30" data-height="30"></span>
-                                        <span class="skills__name">Codé sous Visual Studio Code</span>
-            
-                                    </div>
-                                    <div class="skills__bar skills__autre">
-            
-                                    </div>
-                                    <div>
-                                        <span class="skills__percentage"></span>
-                                    </div>
-                                </div>
-                                <div>
-                   
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="iconify" data-icon="bx:code-block" style="color: #1500ce;" data-width="30" data-height="30"></span>
-                                <span class="skills__name">Codé avec Code::Blocks sous VM</span>
-                            </div>
                         <div class="skills__bar skills__autre">
 
                         </div>
@@ -217,71 +101,257 @@
                             <span class="skills__percentage"></span>
                         </div>
                     </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__autre">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__autre">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+                        <div class="skills__bar skills__autre">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
+
+
                 </div>
+
+                <div>
+                    <img src="assets/images/work3.jpg" alt="" class="skills__images">
+                </div>
+                <a href="Skills.html"><input type="button" value="Voir plus" class="contact__button button"></a>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projets</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__images">
+                    <img src="assets/images/hyrule_castle.png" alt="" class="work1__images">
+                    <a href="./assets/Projets/Hyrule_Castle.html"><input type="button" value="Détails du projet"
+                            class="work1__button button"></a>
+                </div>
+                <div class="work__images">
+                    <img src="assets/images/my_crd.png" alt="" class="work2__images">
+                    <a href="./assets/Projets/MyCRD.html"><input type="button" value="Détails du projet"
+                            class="work2__button button"></a>
+                </div>
+                <div class="work__images">
+                    <img src="assets/images/my_phone_book.png" alt="" class="work3__images">
+                    <a href="./assets/Projets/MyPhoneBook.html"><input type="button" value="Détails du projet"
+                            class="work3__button button"></a>
+                </div>
+                <div class="work__images">
+                    <img src="assets/images/Photo site.png" alt="" class="work4__images">
+                    <a href="./assets/Projets/Mon_Site.html"><input type="button" value="Détails du projet"
+                            class="work4__button button"></a>
+                </div>
+                <div class="work__images">
+                    <img src="assets/images/Photo Portfolio.png" alt="" class="work5__images">
+                    <a href="./assets/Projets/Mon_Portfolio.html"><input type="button" value="Détails du projet"
+                            class="work5__button button"></a>
+                </div>
+                <div class="work__images">
+                    <img src="assets/images/Unity.png" alt="" class="work6__images">
+                    <a href="./assets/Projets/Unity.html"><input type="button" value="Détails du projet"
+                            class="work6__button button"></a>
+                </div>
+                <div class="work__images">
+                    <img src="assets/images/CodeIgniter.png" alt="" class="work6__images">
+                    <a href="./assets/Projets/CodeIgniter.html"><input type="button" value="Détails du projet"
+                            class="work1__button button"></a>
+                </div>
+                <div class="work__images">
+                    <img src="assets/images/HTMLCSSJS.png" alt="" class="work6__images">
+                    <a href="./assets/Projets/HTML-CSS-JS.html"><input type="button" value="Détails du projet"
+                            class="work2__button button"></a>
+                </div>
+                <div class="work__images">
+                    <img src="assets/images/Laravel.png" alt="" class="work6__images">
+                    <a href="./assets/Projets/Laravel.html"><input type="button" value="Détails du projet"
+                            class="work3__button button"></a>
+                </div>
+                   <div class="work__images">
+                    <img src="assets/images/FlappyBird.png" alt="" class="work5__images">
+                    <a href="./assets/Projets/FlappyBird.html"><input type="button" value="Détails du projet"
+                            class="work4__button button"></a>
+                </div>
+                 <div class="work__images">
+                    <img src="assets/images/Pond.png" alt="" class="work5__images">
+                    <a href="./assets/Projets/Pond.html"><input type="button" value="Détails du projet"
+                            class="work5__button button"></a>
+                </div>
+                <div class="work__images">
+                    <img src="assets/images/Bomberman.png" alt="" class="work6__images">
+                    <a href="./assets/Projets/Bomberman.html"><input type="button" value="Détails du projet"
+                            class="work6__button button"></a>
+                </div>
+                
+                
+                
 
             </div>
         </section>
 
-            <section class="skills section" id="contact">
+        <!--===== CONTACT =====-->
+        <section class="skills section" id="contact">
+            <h2 class="section-title">Contact</h2>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        
-                        
-                        <div class="contact_left skills__text">
-                            <h2>Créateur : Rayane Chelghaf</h2>
+            <div class="skills__container bd-grid">
+                <div>
 
-                             <li>
-                            <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: #1500ce;"
-                                data-width="20" data-height="20"></span></span> LinkedIn :</span>
-                                <a href="https://www.linkedin.com/in/rayanechelghaf/">
-                                    Rayane Chelghaf </a>   <br>
+
+                    <div class="contact_left skills__subtitle">
+                        <h3>Vous avez un projet à réaliser ? <br>
+                            Parlons-en !</h3>
+
+                        <p>Vous pouvez directement me contacter en complétant le formulaire à votre droite.
+                            <br>Vous pouvez également me joindre par téléphone ou par mail.
+                        </p>
+
+                        <br>
+                        <p>    <br>Pour me contacter:
+                            <br>
+
+                        </p>
+
+                       <p>    <br> <li>
+
+                            <span class="iconify" data-icon="ant-design:home-filled" style="color: #1500ce;"
+                                data-width="20" data-height="20"></span></span> Addresse :</span>
+                                93420, Villepinte, France<br />
 
                         </li>
                         <br>
-                              <li>
-                                  <span class="iconify" data-icon="ic:baseline-alternate-email" style="color: #1500ce;"
-                                      data-width="30" data-height="20"></span> E-mail :</span>
-                                  <a href="mailto: rayane.chelghaf@outlook.fr">rayane.chelghaf@outlook.fr</a>
-                              </li>
-                        </div>    
-                        
-                    </div>
-                    
-                    
-                    <div>
-                        <h2 class="skills__subtitle">Détails du Projet</h2>
-                        <div class="contact__right skills__subtitle">
-                            
-                            <p>Il s'agit d'un projet propre à ma formation, et il a est réalisé en collaboration avec des camarades de promotion. </p>
-                                <br>
-                                <br>
-                            <a href="https://github.com/RayaneChelghaf/PokeBomber" class="button">Code Public disponible sur mon Github</a>
-                
-                        </div>    
-                        
-                    </div>
-                </div>
-            </section>
+                        <li>
 
+
+                            <span class="iconify" data-icon="ant-design:mobile-filled" style="color: #1500ce;"
+                                data-width="20" data-height="20"></span> Téléphone :</span>
+                            07 68 78 90 98
+                        </li>
+                        <br>
+                        <li>
+                            <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: #1500ce;"
+                                data-width="20" data-height="20"></span></span> LinkedIn :</span>
+                                <a href="https://www.linkedin.com/in/rayanechelghaf/">
+                                    Rayane Chelghaf </a>   <br />
+
+                        </li>
+                        <br>
+                        <li>
+                            <span class="iconify" data-icon="ic:baseline-alternate-email" style="color: #1500ce;"
+                                data-width="20" data-height="20"></span> E-mail :</span>
+                            <a href="mailto: rayane.chelghaf@outlook.fr">rayane.chelghaf@outlook.fr</a>
+                        </li>
+                    </div>
+
+                </div>
+
+
+                <div>
+
+
+                    <div class="contact__right skills__subtitle">
+
+                        <h2>Formulaire</h2>
+<br>
+                        <p>
+                        <form method="POST" action="https://formspree.io/f/mvolpodj">
+                            <div class="skills__data">
+                                <div class="skills__names">
+
+                                
+                                <div>
+                                    <input type="text" name="name" id="name" placeholder="Name" required /><br>
+                                </div>
+                            </div>
+                            </div>
+                                <br>
+                            
+                            
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                            <div> <input type="email" name="email" id="email" placeholder="Email" required /></div>
+</div>
+</div>
+
+                            <div class="skills__data">
+                                <div class="skills__names">
+
+                            <div> <textarea name="message" id="message" placeholder="Message" rows="4"
+                                    required></textarea></div>
+
+                            <div class="actions">
+                        
+                              <li> <input type="submit" value="Send Message" />
+                            </div>
+                        </div>
+                        
+                         <br />
+                        </ul>
+                    </div>
+                    </form> </p>
+                        
+                        <a href="./assets/CV/CV Rayane Chelghaf.pdf" target="_blank"
+                            download="CV Rayane Chelghaf.pdf"><input type="button" value="Télécharger mon CV"
+                                class="button"></a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
 
         <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Rayane Chelghaf</p>
             <div class="footer__social">
-                <a href="https://www.linkedin.com/in/rayanechelghaf/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/RayaneChelghaf" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/rayanechelghaf/" class="footer__icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/RayaneChelghaf" class="footer__icon"><i class='bx bxl-github'></i></a>
+                
             </div>
             <p>&#169; Chelghaf Rayane, 2021</p>
         </footer>
-
 
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script> 
-    </body>
+        <script src="assets/js/main.js"></script>
+</body>
+
 </html>
